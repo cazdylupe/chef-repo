@@ -54,6 +54,11 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
      chef.validation_client_name = "42tl-validator"
      chef.node_name="jgora"
    end
+
+   #
+   # Berkshelf Enabled
+   #
+   config.berkshelf.enabled = true
   
 
 end
